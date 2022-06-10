@@ -1,0 +1,398 @@
+html {
+    background-color: burlywood;
+
+}
+
+body {
+    font-size: 16px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: maroon;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.row {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1px;
+
+}
+
+.col {
+    background-color: beige;
+    border: 2px solid grey;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+p {
+    text-indent: 10px;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .row,
+    .col {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        font-size: smaller;
+    }
+
+    #pieface {
+        scale: 90%;
+    }
+
+    #jd {
+        scale: 90%;
+    }
+
+}
+
+/*reveal and hide*/
+.toggle-btn {
+    display: none;
+}
+
+.toggle-btn-visible {
+    display: block;
+}
+
+.toggle-target-hidden {
+    display: none;
+}
+
+.toggle-target-expanded {
+    display: block;
+}
+
+#hat {
+    float: left;
+    max-width: 40%;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.popPic {
+    text-decoration: underline;
+    color: blue;
+}
+
+.popPic:hover {
+    text-decoration: none;
+}
+
+#center {
+    text-align: center;
+}
+
+#tolk {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    padding: 40px 40px;
+    border-radius: 5px;
+    font-size: 125%;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#volt {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.chicprov {
+    font-size: 95%;
+    font-weight: bold;
+
+}
+
+.cakes {
+    font-size: 88%;
+    font-weight: bold;
+}
+
+#center1 {
+    text-align: center;
+    color: maroon;
+}
+
+.nancy1 {
+    line-height: 95%;
+}
+
+.nancy3{
+    line-height: 90%;
+}
+
+.shervin {
+    font-weight: bold;
+    font-size: 95%
+}
+
+.tip {
+    background-color: lightblue;
+    font-family: monospace;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+#shaw {
+    background-color: lightsteelblue;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#nan {
+    float: right;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 5px;
+}
+
+
+.AB {
+    padding: 0 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: Courier;
+    font-size: 80%;
+}
+
+h5 {
+    font-family: fantasy;
+    padding: 5px;
+    font-size: 105%;
+    margin-bottom: 0;
+}
+
+#ab{
+    margin-top: 0;
+    line-height: 90%;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+
+.vegroast {
+    font-weight: bold;
+    font-size: 95%;
+}
+
+
+.smokey {
+    font-weight: bold;
+    font-size: 95%;
+}
+
+#antBour {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#report {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+    background-color: khaki;
+    font-family: cursive;
+    font-size: 70%;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px 5px;
+
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+#img1 {
+    margin: 0;
+
+}
+
+#jd {
+    width: 49.4%;
+    border-radius: 5px;
+}
+
+#wild {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-size: 115%;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+#clown {
+    max-width: 40%;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+
+    opacity: 0.02;
+}
+
+#clown:hover {
+    opacity: 1.0;
+    transition: opacity 1s ease-in;
+
+}
+
+.citveg {
+    font-weight: bold;
+    font-size: 95%
+}
+
+.pablo {
+    background-color: lightsteelblue;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: cursive;
+    font-weight: bold;
+
+
+}
+
+.beetspud {
+    font-weight: bold;
+    font-size: 95%;
+
+}
+
+#irish {
+    background-color: lightsteelblue;
+    font-size: 110%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+
+
+}
+
+
+#jaques {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-size: 115%;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#pieface {
+    filter: grayscale(70%);
+}
+
+#adams {
+    background-color: lightsteelblue;
+    font-size: 110%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#amb{
+    padding: 0 5px 10px 5px;
+    font-weight: bolder;
+}
+
+#Beard{
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.tip3{
+    background-color: lightblue;
+    font-family: monospace;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#elks{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    opacity: 0;
+    transition: ease-in 2s;
+}
+#elks:hover{
+    opacity: 1;
+    transition: 2s;
+    transition: ease-out 2s;
+    
+}
+
+.doug3{
+    line-height: 95%;
+}
