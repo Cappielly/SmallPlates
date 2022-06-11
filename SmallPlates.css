@@ -384,13 +384,10 @@ a:hover {
     width: 100%;
     border: 1px solid black;
     opacity: 0;
-    transition: ease-in 2s;
 }
 #elks:hover{
     opacity: 1;
-    transition: 2s;
-    transition: ease-out 2s;
-    
+    transition-duration: 2s; 
 }
 
 .doug3{
