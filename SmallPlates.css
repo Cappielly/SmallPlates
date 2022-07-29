@@ -114,7 +114,7 @@ p {
     text-align: center;
 }
 
-#tolk {
+#quote {
     background-color: lightsteelblue;
     margin-top: 10px;
     padding: 40px 40px;
@@ -124,21 +124,8 @@ p {
     font-weight: bold;
 }
 
-#volt {
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    font-size: 120%;
-    font-family: cursive;
-    font-weight: bold;
-}
 
-.chicprov {
-    font-size: 95%;
-    font-weight: bold;
 
-}
 
 .cakes {
     font-size: 88%;
@@ -264,17 +251,7 @@ a:hover {
     border-radius: 5px;
 }
 
-#wild {
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-size: 115%;
-    font-family: cursive;
-    font-weight: bold;
 
-}
 
 #clown {
     max-width: 40%;
@@ -370,14 +347,6 @@ a:hover {
     font-weight: bold;
 }
 
-.tip3{
-    background-color: lightblue;
-    font-family: monospace;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-}
 
 #elks{
     height: auto;
@@ -390,6 +359,17 @@ a:hover {
     transition-duration: 2s; 
 }
 
-.doug3{
-    line-height: 95%;
+
+.catch2{
+    line-height: 98%;
+}
+
+.aptif{
+    background-color: #f5d108;
+    padding: 0 5px;
+    border: 1px solid maroon;
+    border-radius: 3px;
+}
+#champ{
+    float: left;
 }
