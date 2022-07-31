@@ -383,3 +383,10 @@ a:hover {
 #news{
     width: 100%;
 }
+
+.scenes{
+    color: #03035e;
+    font: bold;
+    padding: 1px 10px;
+    border-radius: 3px; 
+}
