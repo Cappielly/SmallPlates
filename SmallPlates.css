@@ -198,13 +198,15 @@ h5 {
     padding-bottom: 5px;
     font-weight: bolder;
 }
-
-
-.vegroast {
-    font-weight: bold;
-    font-size: 95%;
+.alD img{
+    width: 99%;
 }
 
+
+.alDent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .smokey {
     font-weight: bold;
