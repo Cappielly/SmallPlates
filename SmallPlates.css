@@ -206,12 +206,9 @@ h5 {
 .alDent{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
 }
 
-.smokey {
-    font-weight: bold;
-    font-size: 95%;
-}
 
 #antBour {
     background-color: lightsteelblue;
@@ -253,27 +250,34 @@ a:hover {
     border-radius: 5px;
 }
 
-
-
-#clown {
-    max-width: 40%;
-    border-radius: 5px;
-    float: left;
-    margin-right: 30px;
-
-    opacity: 0.02;
+.center{
+    color: antiquewhite;
+    
+   
+}
+#clown{
+    opacity: 0;
+    
 }
 
-#clown:hover {
+.clown{
+    display: flex;
+    background-image: url(/img/clown.jpg);
+    border-radius: 3px;
+    height: 400px;
+    opacity: 0;
+}
+
+
+
+
+.clown:hover {
     opacity: 1.0;
-    transition: opacity 1s ease-in;
+    transition: opacity 2s ease-in;
+
 
 }
 
-.citveg {
-    font-weight: bold;
-    font-size: 95%
-}
 
 .pablo {
     background-color: lightsteelblue;
