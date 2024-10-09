@@ -110,7 +110,7 @@ p {
     text-decoration: none;
 }
 
-#center {
+#center{
     text-align: center;
 }
 
@@ -232,10 +232,8 @@ a:hover {
     border-radius: 5px;
 }
 
-.center{
+#center2{
     color: antiquewhite;
-    
-   
 }
 #clown{
     opacity: 0;
@@ -243,10 +241,11 @@ a:hover {
 }
 
 .clown{
+    margin-top: 20px;
     display: flex;
     background-image: url(/img/clown.jpg);
     border-radius: 3px;
-    height: 400px;
+    height: 420px;
     opacity: 0;
 }
 
@@ -261,49 +260,6 @@ a:hover {
 }
 
 
-.pablo {
-    background-color: lightsteelblue;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-size: 120%;
-    font-family: cursive;
-    font-weight: bold;
-
-
-}
-
-.beetspud {
-    font-weight: bold;
-    font-size: 95%;
-
-}
-
-#irish {
-    background-color: lightsteelblue;
-    font-size: 110%;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-family: cursive;
-    font-weight: bold;
-
-
-}
-
-
-#jaques {
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-size: 115%;
-    font-family: cursive;
-    font-weight: bold;
-}
 
 #pieface {
     filter: grayscale(70%);
