@@ -241,7 +241,7 @@ a:hover {
 }
 
 .clown{
-    margin-top: 20px;
+    margin: 20px 0 40px 0;
     display: flex;
     background-image: url(/img/clown.jpg);
     border-radius: 3px;
