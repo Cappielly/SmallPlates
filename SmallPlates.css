@@ -265,25 +265,6 @@ a:hover {
     opacity: 1.0;
     transition: opacity 2s ease-in;
 
-
-}
-
-
-.breadTip{
-    position: relative;
-    height: auto;
-    color: black;
-    font-weight: bolder;
-    z-index: 1;
-}
-.breadTip::before {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-image: url(img/blisters.jpg);
-    background-size: 170px;
-    opacity: .3;
 }
 
 
@@ -291,16 +272,6 @@ a:hover {
     filter: grayscale(70%);
 }
 
-#adams {
-    background-color: lightsteelblue;
-    font-size: 110%;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-family: cursive;
-    font-weight: bold;
-}
 
 #amb{
     padding: 0 5px 10px 5px;
@@ -329,6 +300,15 @@ a:hover {
     transition-duration: 2s; 
 }
 
+.breadTip{
+    background-image: url(img/blisters.jpg);
+    background-size: 170px;
+    padding: 20px;
+    color:white;
+    font-weight: bolder;
+}
+
+
 
 .catch2{
     line-height: 98%;
@@ -345,7 +325,6 @@ a:hover {
 }
 
 #newsBrief{  
-    font-size: 110%;
     font-style: italic;
     font-weight: bold;
 }
@@ -359,6 +338,13 @@ a:hover {
     font: bold;
     padding: 1px 10px;
     border-radius: 3px; 
+}
+
+.vines img{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
 }
 
 #laEsq1{
