@@ -117,7 +117,7 @@ p {
 #quote {
     background-color: lightsteelblue;
     margin-top: 10px;
-    padding: 40px 40px;
+    padding: 20px 20px;
     border-radius: 5px;
     font-size: 125%;
     font-family: cursive;
@@ -141,14 +141,6 @@ p {
     font-weight: bold;
 }
 
-
-#shaw {
-    background-color: lightsteelblue;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-family: cursive;
-    font-weight: bold;
-}
 
 #nan {
     float: right;
@@ -227,6 +219,7 @@ h5 {
 
 #report {
     font-family: cursive;
+    font-size: 98%;
 }
 
 a {
@@ -253,6 +246,7 @@ a:hover {
 #jd {
     width: 49.4%;
     border-radius: 5px;
+    height: 350px;
 }
 
 #center2{
