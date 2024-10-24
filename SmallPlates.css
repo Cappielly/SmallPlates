@@ -165,6 +165,20 @@ p {
     font-family: Courier;
     font-size: 80%;
 }
+
+.olde{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/oldeE.jpg);
+    background-size: 100px;
+    font-size: 160%;
+    font-weight: bolder;
+    font-style: italic;
+    color: white; 
+    text-shadow: 4px 4px 2px black;
+}
 #amb1{
     padding: 10px 5px;
     background-color: lightgray;
@@ -250,7 +264,7 @@ a:hover {
 }
 
 .clown{
-    margin: 20px 0 40px 0;
+    margin: 20px 0 5px 0;
     display: flex;
     background-image: url(/img/clown.jpg);
     border-radius: 3px;
@@ -266,6 +280,11 @@ a:hover {
     transition: opacity 2s ease-in;
 
 }
+
+.tahoe img{
+    width: 100%;
+}
+
 
 
 #pieface {
@@ -305,6 +324,7 @@ a:hover {
     background-size: 170px;
     padding: 20px;
     color:white;
+    text-shadow: 3px 3px 2px black;
     font-weight: bolder;
 }
 
