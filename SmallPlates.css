@@ -110,16 +110,17 @@ p {
     text-decoration: none;
 }
 
-#center{
+#center {
     text-align: center;
 }
+
+/* quote styling */
 
 #quote {
     background-color: lightsteelblue;
     margin-top: 10px;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
-    font-size: 125%;
     font-family: cursive;
     font-weight: bold;
 }
@@ -131,7 +132,7 @@ p {
     color: maroon;
 }
 
-
+/* chef tip styling */
 .tip {
     background-color: lightblue;
     font-family: monospace;
@@ -149,16 +150,20 @@ p {
     margin-left: 5px;
 }
 
- .AB{
-    padding: 0 5px;
+/*amuse bouche styling */
+.AB {
+    padding: 0 5px 5px 5px;
     background-color: lightgray;
     border-radius: 5px;
     margin-bottom: 5px;
     font-family: Courier;
     font-size: 80%;
+    font-weight: bold;
 }
 
-.olde{
+
+/* OE 40 styling */
+.olde {
     height: 60px;
     display: flex;
     justify-content: center;
@@ -168,19 +173,10 @@ p {
     font-size: 160%;
     font-weight: bolder;
     font-style: italic;
-    color: white; 
+    color: white;
     text-shadow: 4px 4px 2px black;
 }
-#amb1{
-    padding: 10px 5px;
-    background-color: lightgray;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    font-family: Courier;
-    font-size: 80%;
-    font-weight: bold;
 
-}
 
 h5 {
     font-family: fantasy;
@@ -189,33 +185,18 @@ h5 {
     margin-bottom: 0;
 }
 
-#ab{
-    margin-top: 0;
-    line-height: 90%;
-    padding-bottom: 5px;
-    font-weight: bolder;
-}
-.alD img{
+
+.dente img {
     width: 99%;
 }
 
 
-.alDent{
+.alDent {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 10px;
 }
 
-
-#antBour {
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-family: cursive;
-    font-weight: bold;
-}
 
 #report {
     font-family: cursive;
@@ -240,7 +221,6 @@ a:hover {
 
 #img1 {
     margin: 0;
-
 }
 
 #jd {
@@ -249,20 +229,21 @@ a:hover {
     height: 350px;
 }
 
-#center2{
+#center2 {
     color: antiquewhite;
 }
-#clown{
+
+#clown {
     opacity: 0;
-    
+
 }
 
-.clown{
+.clown {
     margin: 20px 0 5px 0;
     display: flex;
     background-image: url(/img/clown.jpg);
     border-radius: 3px;
-    height: 420px;
+    height: 400px;
     opacity: 0;
 }
 
@@ -275,7 +256,7 @@ a:hover {
 
 }
 
-.tahoe img{
+.tahoe img {
     width: 100%;
 }
 
@@ -286,81 +267,63 @@ a:hover {
 }
 
 
-#amb{
-    padding: 0 5px 10px 5px;
-    font-weight: bolder;
-}
 
-#Beard{
-    background-color: lightsteelblue;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 1px 1px;
-    border-radius: 5px;
-    font-family: cursive;
-    font-weight: bold;
-}
-
-
-#elks{
+#elks {
     height: auto;
     width: 100%;
     border: 1px solid black;
     opacity: 0;
 }
-#elks:hover{
+
+#elks:hover {
     opacity: 1;
-    transition-duration: 2s; 
+    transition-duration: 2s;
 }
 
-.breadTip{
+.breadTip {
     background-image: url(img/blisters.jpg);
     background-size: 170px;
     padding: 20px;
-    color:white;
+    color: white;
     text-shadow: 3px 3px 2px black;
     font-weight: bolder;
 }
 
 
-
-.catch2{
-    line-height: 98%;
-}
-
-.aptif{
+.aptif {
     background-color: #f5d108;
     padding: 0 5px;
     border: 1px solid maroon;
     border-radius: 3px;
 }
-#champ{
+
+#champ {
     float: left;
 }
 
-#newsBrief{  
+#newsBrief {
     font-style: italic;
     font-weight: bold;
 }
 
-#news{
+#news {
     width: 100%;
 }
 
-.scenes{
+.scenes {
     color: #03035e;
     font: bold;
     padding: 1px 10px;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 
-.vines img{
+.vines img {
     width: 100%;
     margin-bottom: 20px;
     border: 2px solid black;
     border-radius: 3px;
 }
 
-#laEsq1{
-   max-width: 100%;
+#laEsq1 {
+    max-width: 100%;
 }
