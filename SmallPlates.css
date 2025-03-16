@@ -31,7 +31,12 @@ h4 {
     text-align: center;
     font-weight: bold;
 }
-
+h5{
+    font-family: fantasy;
+    padding: 5px;
+    font-size: 105%;
+    margin-bottom: 0;
+}
 .row {
     display: grid;
     width: 100%;
@@ -119,7 +124,7 @@ p {
 #quote {
     background-color: lightsteelblue;
     margin-top: 10px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     border-radius: 5px;
     font-family: cursive;
     font-weight: bold;
@@ -150,14 +155,15 @@ p {
     margin-left: 5px;
 }
 
+
 /*amuse bouche styling */
 .AB {
-    padding: 0 5px 5px 5px;
+    padding: 5px;
     background-color: lightgray;
     border-radius: 5px;
     margin-bottom: 5px;
     font-family: Courier;
-    font-size: 80%;
+    font-size: 85%;
     font-weight: bold;
 }
 
@@ -178,12 +184,7 @@ p {
 }
 
 
-h5 {
-    font-family: fantasy;
-    padding: 5px;
-    font-size: 105%;
-    margin-bottom: 0;
-}
+
 
 
 .dente img {
@@ -200,13 +201,13 @@ h5 {
 
 #report {
     font-family: cursive;
-    font-size: 98%;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
-    color: darkolivegreen;
-    background-color: khaki;
+    color: black;
+    background-color:gold;
     font-family: cursive;
     font-size: 70%;
     border: 1px solid black;
@@ -226,7 +227,7 @@ a:hover {
 #jd {
     width: 49.4%;
     border-radius: 5px;
-    height: 350px;
+    height: 320px;
 }
 
 #center2 {
@@ -241,7 +242,7 @@ a:hover {
 .clown {
     margin: 20px 0 5px 0;
     display: flex;
-    background-image: url(/img/clown.jpg);
+    background-image: url(img/clown.jpg);
     border-radius: 3px;
     height: 400px;
     opacity: 0;
@@ -252,12 +253,13 @@ a:hover {
 
 .clown:hover {
     opacity: 1.0;
-    transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in-out;
 
 }
 
 .tahoe img {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 
@@ -283,9 +285,9 @@ a:hover {
 .breadTip {
     background-image: url(img/blisters.jpg);
     background-size: 170px;
-    padding: 20px;
+    padding: 10px;
     color: white;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 2px 2px black;
     font-weight: bolder;
 }
 
